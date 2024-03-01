@@ -1,4 +1,14 @@
 const parallax_el = document.querySelectorAll(".parallax")
+const project1 = document.getElementsByClassName("proyectos")[0]
+const project2 = document.getElementsByClassName("proyectos")[1]
+const project3 = document.getElementsByClassName("proyectos")[2]
+const project4 = document.getElementsByClassName("proyectos")[3]
+
+
+project1.addEventListener("click",()=>{
+    window.open("https://christianc8.github.io/proyect-class-e/")
+})
+
 
 let xValue = 0, yValue = 0;
 
