@@ -4,7 +4,7 @@ const project2 = document.getElementsByClassName("proyectos")[1]
 const project3 = document.getElementsByClassName("proyectos")[2]
 const project4 = document.getElementsByClassName("proyectos")[3]
 
-
+document.body.addEventListener('touchmove', function(e){ e.preventDefault(); }, { passive: false });
 project1.addEventListener("click",()=>{
     window.open("https://christianc8.github.io/proyect-class-e/")
 })
